@@ -12,15 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.app-header {
-  font-family: "Josefin Sans", sans-serif;
-}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -43,4 +35,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.hello{
+  background: #000;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  min-height: 20px;
+  max-height: 400px;
 }
